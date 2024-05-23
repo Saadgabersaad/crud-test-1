@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <title>Document</title>
+</head>
+
+<body data-bs-theme="dark">
+  <div class="container py-5">
+    <h1 class="text-center">
+      CRUDS SYSTEM
+    </h1>
+    <div class="form-floating">
+      <input id="productName" type="text" class="form-control mb-3 " placeholder="product Name">
+      <label for="productName"> product Name</label>
+    </div>
+    <div class="form-floating">
+      <input id="productPrice" type="text" class="form-control mb-3  " placeholder="product Price">
+      <label for="productPrice"> product Price</label>
+    </div>
+    <div class="form-floating">
+      <input id="productCategory" type="text" class="form-control mb-3 " placeholder="ex...toshiba">
+      <label for="productCategory"> product Category</label>
+    </div>
+    <div class="form-floating">
+      <textarea name="Description" id="productDescription" class="form-control mb-3 "
+        placeholder="Description"></textarea>
+      <label for="">Description</label>
+    </div>
+    <div>
+      <input class="form-control mb-3" type="file">
+    </div>
+    <button id="" onclick="addProduct()" class="btn btn-outline-info"> Add product</button>
+    <button id="" onclick="clearInputs()" class="btn btn-outline-warning"> clear Inputs</button>
+  </div>
+  <div class="container">
+    <div class="row" id="rowData">
+      
+     
+    </div>
+  </div>
+  <script src="cruds.js"></script>
+</body>
+
+</html>
